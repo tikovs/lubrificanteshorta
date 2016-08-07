@@ -303,7 +303,9 @@ html lang="en">
 
 	<!-- SESSÃO LOCALIZAÇÃO -->
 	<section id="localizacao" class="map">
-<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyCJsCKHuRWOxh6ErfESORWcwX_Q2l0wop8" async="" defer="defer" type="text/javascript"></script>
+
+		<script type="text/javascript"
+			src="https://maps.google.com/maps/api/js?sensor=false"></script>
 		<div style="overflow: hidden; height: 100%; width: 100%;">
 			<div id="gmap_canvas" style="height: 100%; width: 100%;"></div>
 			<style>
@@ -312,8 +314,9 @@ html lang="en">
 	background: none !important
 }
 </style>
+			<a class="google-map-code" href="http://www.trivoo.net/google-maps/"
+				id="get-map-data">www.trivoo.net</a>
 		</div>
-		
 		<script type="text/javascript">
 			function init_map() {
 				var myOptions = {
