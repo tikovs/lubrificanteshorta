@@ -31,7 +31,6 @@ $(function() {
                url: "https://formspree.io/tikovs@gmail.com", 
               method: "POST",
               dataType: "json"
-                type: "POST",
                 data: {
                     name: name,
                     telefone: telefone,
