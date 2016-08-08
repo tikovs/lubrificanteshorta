@@ -28,7 +28,7 @@ $(function() {
             }
             $.ajax({
 
-               url: "https://formspree.io/tikovs@gmail.com", 
+               url: "https://formspree.io/contato@lubrificanteshorta.com.br", 
               method: "POST",
               dataType: "json",
                 data: {
@@ -41,11 +41,11 @@ $(function() {
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
-                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    $('#success > .alert alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-success')
+                    $('#success > .alert alert-success')
                         .append("<strong>Sua mensagem foi enviada com sucesso! </strong>");
-                    $('#success > .alert-success')
+                    $('#success > .alert alert-success')
                         .append('</div>');
 
                     //clear all fields
@@ -57,8 +57,8 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Desculpe, " + firstName + ", nosso servidor de e-mail não responde. Por favor tente novamente mais tarde!");
-                    $('#success > .alert-danger').append('</div>');
+                    $('#success > .alert alert-danger').append("<strong>Desculpe, " + firstName + ", nosso servidor de e-mail não responde. Por favor tente novamente mais tarde!");
+                    $('#success > .alert alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
                     $btn.button('reset')
