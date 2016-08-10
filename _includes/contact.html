@@ -1,0 +1,63 @@
+<!-- Contact Section -->			
+	<section id="contato">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>Contato</h2></br>					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+					<!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+				<form name="sentMessage" id="contactForm" novalidate>
+						<div class="row control-group">
+							<div
+								class="form-group col-xs-12 floating-label-form-group controls">
+								<label>Nome</label> <input type="text" class="form-control"
+									placeholder="Nome" id="name" required name="name"
+									data-validation-required-message="Por favor digite o seu nome.">
+								<p class="help-block text-danger"></p>
+							</div>
+						</div>
+						<div class="row control-group">
+							<div
+								class="form-group col-xs-12 floating-label-form-group controls">
+								<label>Email</label> <input type="email" class="form-control"
+									placeholder="email@exemplo.com" id="email"  name="email" required
+									data-validation-required-message="Por favor digite o seu e-mail.">
+								<p class="help-block text-danger"></p>
+							</div>
+						</div>
+						<div class="row control-group">
+							<div
+								class="form-group col-xs-12 floating-label-form-group controls">
+								<label>Telefone</label> <input type="tel" class="form-control"
+									placeholder="31 3462-4820" id="telefone" name="telefone" required
+									data-validation-required-message="Por favor digite o seu número.">
+								<p class="help-block text-danger"></p>
+							</div>
+						</div>
+						<div class="row control-group">
+							<div
+								class="form-group col-xs-12 floating-label-form-group controls">
+								<label>Mensagem</label>
+								<textarea rows="5" class="form-control" placeholder="Mensagem"
+									id="message" required name="message"
+									data-validation-required-message="Por favor digita sua mensagem."></textarea>
+								<p class="help-block text-danger"></p>
+							</div>
+						</div>
+						<br>
+						<div id="success"></div>
+						<div class="row">
+							<div class="form-group col-xs-12">
+								<button type="submit" id="myButton" data-loading-text="Aguarde o envio do e-mail..." 
+								 autocomplete="off" class="btn btn-success btn-lg">Enviar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
