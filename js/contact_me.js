@@ -28,7 +28,7 @@ $(function() {
             }
             $.ajax({
 
-               url: "https://formspree.io/contato@lubrificanteshorta.com.br.com.br", 
+               url: "https://formspree.io/contato@lubrificanteshorta.com.br", 
               method: "POST",
               dataType: "json",
                 data: {
