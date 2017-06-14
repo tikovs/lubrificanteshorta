@@ -83,8 +83,15 @@ header {
     text-align: center;
     color: #fff;
     background: rgba(24,188,156,.9);
-    	background-size: 100%; 100%;
+    	
     background-image:url('../img/slide02.jpg');
+background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        height:100%;
 }
 
 header .container {
