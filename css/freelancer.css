@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: rgba(24,188,156,.9);
+    color: #1b1817;
 }
 
 h1,
@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: rgba(24,188,156,.9);
+    background-color: #1b1817;
 }
 
 hr.star-primary {
@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: rgba(24,188,156,.9);
+    background: #1b1817;
     	
     background-image:url('../img/slide02.jpg');
 background-position: center;
@@ -209,7 +209,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: rgba(24,188,156,.9);
+    background: #1b1817;
 }
 
 @media(max-width:767px) {
@@ -240,7 +240,7 @@ section.success {
     height: 100%;
     opacity: 0;
     margin-left:6%;
-    background: rgba(24,188,156,.9);
+    background: #1b1817e3;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -294,7 +294,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: rgba(24,188,156,.9);
+    color: #1b1817;
     background: #fff;
 }
 
@@ -347,7 +347,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: rgba(24,188,156,.9);
+    color: #1b1817;
 }
 
 form .row:first-child .floating-label-form-group {
